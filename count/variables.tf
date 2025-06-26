@@ -11,3 +11,7 @@ variable "TYPES_LIST" {
 variable "TYPES_MAP" {
   type = map
 }
+
+variable "USERS_NAME" {
+  type = list(string)
+}
